@@ -134,7 +134,8 @@ public class Encryption {
 	}
 	
 	private void quit() {
-		
+		System.out.println("Thank you, have a nice day Bro!");
+		System.exit(0);
 	}
 	
 }
