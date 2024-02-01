@@ -14,6 +14,14 @@ public class Encryption {
 	private char[] secretLetters;
 	
 	Encryption(){
+		scanner = new Scanner(System.in);
+		random = new Random();
+		list = new ArrayList();
+		shuffledList = new ArrayList();
+		character = ' ';
+		
+		newKey();
+		askQuestion();
 		
 	}
 	
